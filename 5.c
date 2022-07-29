@@ -8,7 +8,8 @@ void main()
     i=1;
     do
     {
-        printf("%d\n",i*i*i);
+        printf("%d and cube of %d is : %d\n",i,i,(i*i*i));
         i++;
-    }while(i<=n);
+    }
+    while(i<=n);
 }
